@@ -1,0 +1,78 @@
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv
+venv
+env
+ENV
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / Packaging
+/dist
+/build
+/*.egg-info/
+ eggs/
+ *.dist-info/
+wheels/
+
+# Dependencies
+requirements.txt
+constraints.txt
+poetry.lock
+Pipfile.lock
+.pyproject.toml.metadata
+
+# dotenv
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Logs and Databases
+*.log
+*.sqlite3
+*.db
+
+# Alembic migrations (auto-generated)
+alembic/versions/*.py
+
+# Testing
+.pytest_cache/
+__pycache__
+coverage.xml
+htmlcov/
+*.coveragerc
+.tox/
+noxfile_session*
+coverage/
+
+# CI/CD
+.github/workflows/cache/
+
+# MyPy
+.mypy_cache/
+
+# Pytype
+.pytype/
+
+# PyCharm
+*.iml
+*.iws
+
+# OS generated
+.DS_Store
+Thumbs.db
